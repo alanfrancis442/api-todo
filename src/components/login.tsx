@@ -14,7 +14,7 @@ const Login = () => {
         headers: {
           "Authorization": localStorage.getItem('token')
         }
-      }).then((response) => {
+      }).then(() => {
         history.push('/');
       })
     }
